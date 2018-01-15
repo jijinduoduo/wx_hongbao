@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+		<link rel="stylesheet" href="css/hongbao.css" />
+		<title></title>
+	</head>
+	<body>
+		<div class="all">
+			
+			<div class="bg_0">
+				<img src="img/16.png"/>
+			</div>
+			<div class="jx">
+				<img src="img/15.png" />
+			</div>
+			
+			<div class="cai">
+				<img src="img/cai.png">
+			</div>
+		</div>
+		<script>
+			var cai=document.getElementsByClassName("cai")[0];
+			var dg=document.getElementsByClassName("bg_0")[0];
+			function RemoveRed(){
+				cai.onclick=function(){
+				this.style.transform="rotateY(720deg)";
+				var that=this;
+					setTimeout(function(){
+						that.style.display="none";
+						//var img=dg.getElementsByTagName("img");
+						window.location.href="567f387adc9c893d99367d492cfde8c6.php";
+					},3000)
+				}
+				
+			}
+			RemoveRed();
+		</script>
+	</body>
+</html>

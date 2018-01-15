@@ -1,0 +1,73 @@
+
+.all{
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	/*margin-top: 10%;*/
+}
+.bg {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+.bg img{
+	width: 100%;
+}
+.bg_0 img{
+	width: 100%;
+}
+.bg_0{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.jx{
+	position: absolute;
+	margin-top: 90%;
+	width: 70%;
+	left: 15%;
+	z-index: 2;
+	
+}
+.jx img{
+	width: 100%;
+	
+}
+.top{
+	position: absolute;
+	margin-top: -43.5%;
+	width: 100%;
+	transform-origin:bottom;
+	transform: rotateX(0deg);
+	z-index: 99;
+}
+.top img{
+	width: 100%;
+}
+
+.cai{
+	position: absolute;
+	margin-top: 30%;
+	z-index: 100;
+	width: 30%;
+	left:35%;
+	cursor: pointer;
+	transition: transform 3s;
+}
+.cai img{
+	width: 100%;
+}
+#p{
+	position: absolute;
+	width: 100%;
+	top: 30%;
+	text-align: center;
+	color: yellow;
+	font-family: "微软雅黑";
+	font-size: 23px;
+	
+}
